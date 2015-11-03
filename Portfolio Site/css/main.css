@@ -1,0 +1,311 @@
+/* main styles for portfolio page */
+
+body{
+    background-color: white;
+}
+
+/******************* HEADER ****************************/
+header{
+	width: 100%;
+    background-image: url("../img/city.jpg");
+    background-repeat: no-repeat;
+	background-size: 100%;
+    margin: 0 0 5px 0;
+    padding: 5px 0 0 0;
+	height: 35em;
+    opacity: 0.8;
+}
+
+.name{
+    margin: 7% 0 0 10%;
+    font-size: 3em;
+    color: white;
+}
+
+.job_title{
+    margin: 0 0 0 10%;
+    font-size: 3em;
+    color: white;
+}
+
+.section_titles{
+    color: purple;
+    font-size: 3em;
+    margin-left: -75px;
+    padding: 2%;
+}
+
+.section_titles:hover{
+    color: deeppink;
+    font-weight: bold;
+}
+
+nav{
+	width: 100%;
+	text-align: center;
+	padding: 10px 10px;
+	margin: 20px 0 0;  
+}
+
+nav ul{
+    text-decoration: none;
+    list-style: none;
+    margin:0;
+    padding:0;
+    float: right;
+    color: white;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 2em;
+}
+
+nav a{
+	color: white;
+}
+
+/******************* PROJECT SECTION ****************************/
+
+#projects{
+	margin-left: 8%;
+}
+
+.projectTitles{
+    margin-top: 5%;
+    color: purple;
+    font-size: 3em;
+}
+
+
+.projectDescription{
+    margin: 2%;
+    padding: 0;
+    color: darkslategray;
+    font-size: 2em;
+}
+
+ .projectLink a{
+    font-size: 2em;
+}
+
+button{
+    background-color: purple;
+    border: 5px solid darkslategray;
+    margin-top: 12%;
+    margin-right: 2%;
+    width: 150px;
+    height: 50px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
+/* Carousel */
+/*#wrapper_Keyes{
+    width: 100%;
+    margin-left: 6%;
+   
+}*/
+
+#carousel_keyesArchitects{
+    width: 65%;
+    background-color: lightslategray;
+}
+
+
+.carousel-inner{
+    background-color: none;
+    height: 320px;
+    max-width: 1200px;
+    margin: 5%;
+    padding: 0;
+}
+
+.glyphicon glyphicon-chevron-left{
+    display: none;
+}
+
+.carousel-indicators .active{
+    background-color: deeppink;
+    display: none;
+}
+
+.carousel-indicators li{
+    border: 2px solid deeppink;
+    display: none;
+}
+
+
+.carousel_text{
+    color: black;
+    margin-top: 1.5%;
+	margin-bottom: 25px;
+	padding: 2%;
+}
+
+.glyphicon-chevron-left:before{
+    display: none;
+}
+
+.glyphicon-chevron-right:before{
+    display: none;
+}
+
+.item{
+    padding: 1.5%;
+    margin: .5% 2% 2% 5%;
+}
+
+.item img{
+    border: 3px solid black;
+    height: 85%;
+    width: 85%;
+    margin-left: 2%;
+    margin-bottom: 75px;
+}
+
+.carousel-caption{
+	display: none;
+}
+
+.col-lg-9{
+    width: 65%;
+    padding: 0;
+}                  
+
+
+#keyesArchitects{
+    border-bottom: 3px solid gray;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+#carousel_cartoonHub{
+    width: 65%;
+    background-color: lightslategray;
+}
+
+#carousel_zombieSmash{
+    width: 65%;
+    background-color: lightslategray;
+}
+
+
+#classic_cartoon_hub{
+    border-bottom: 3px solid gray;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#zombie_smash{
+    border-bottom: 3px solid gray;
+    width: 90%;
+    margin-left: 5%;
+}
+
+/************* DESIGN SECTION *****************************/
+#design{
+	margin-left: 8%;
+    border-bottom: 3px solid gray;
+    width: 90%
+   
+}
+
+.designWrapper{
+    margin-left: 10%;
+}
+
+.thumbnail{
+    margin: 5%;
+    
+}
+
+ .thumbnail-button{
+    background-color:  white;
+     border: none;
+     height: 200px;
+     width: 200px;
+}
+
+.spacer{
+    margin-bottom: 5%;
+}
+
+/************* MODAL SETTINGS *****************************/
+
+.modal-title{
+    font-size: 2.5em;
+    color: purple;
+}
+
+.modal-header button .close{
+    color: deeppink;
+    font-size: 41px;
+    line-height: 3;
+}
+
+.modal-content{
+    width: 650px;
+    height: 850px;
+    padding: 0;
+    margin: auto;
+}
+.modal-body{
+    margin: 100px;
+}
+
+/************* CONTACT SECTION ****************************/
+#contact{
+	margin-left: 9%;
+}
+
+.profile_pic{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.profile_pic img{
+    border-radius: 75%;
+}
+
+.col-lg-pull-3{
+    margin: 5%;
+}
+
+.col-lg-1{
+    margin: 5%;
+}
+
+.icons a{
+   font-size: 1.5em;
+    padding: 15%;
+}
+
+
+.icons a img{
+    margin-top: 100px;
+}
+
+#email{
+    margin-left: 25px;
+}
+
+.quote{
+    color: black;
+    margin-top: 25%;
+}
+
+
+.quoteText{
+    font-size: 2em;
+}
+
+
+
+
+
+
+
