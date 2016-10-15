@@ -5,27 +5,38 @@ body{
 }
 
 /******************* HEADER ****************************/
-header{
+.page-header{
 	width: 100%;
-    background-image: url("../img/city.jpg");
+    background-image: url("../img/fireworks.jpg");
     background-repeat: no-repeat;
 	background-size: 100%;
     margin: 0 0 5px 0;
     padding: 5px 0 0 0;
 	height: 35em;
     opacity: 0.8;
+    border: 15px solid;
 }
 
 .name{
-    margin: 7% 0 0 10%;
+    margin: 10% 0 0 2%;
     font-size: 3em;
-    color: white;
+    color: #BC11F5;
+    font-weight: 800;
+    background-color: #34E1F7;
+    width: 20%;
+    padding-left: 1%;
+    
 }
 
 .job_title{
-    margin: 0 0 0 10%;
+    margin: 0 0 0 2%;
+    color: #34E1F7;
     font-size: 3em;
-    color: white;
+    font-weight: 800;
+    background-color: white;
+    width: 30%;
+    padding-left: 1%;
+    
 }
 
 .section_titles{
@@ -67,195 +78,125 @@ nav a{
 }
 
 /******************* PROJECT SECTION ****************************/
+.panel{
+    width: 130em;
+    margin-left: 5%;
+}
+.jumbotron{
+    background-color: #F5F5DA;
+    border: 1em solid #DAF5E8;
+    box-shadow: 10px 10px 5px #888888;
+}
 
+.jumbotron h1{
+    font-size: 4em;
+    margin: 1em 0 1em .2em;
+    color: #16F7D2;
+}
+
+.thumbnail{
+    border: none;
+    background-color: transparent;
+    display: inline;
+}
 #projects{
 	margin-left: 8%;
 }
 
 .projectTitles{
-    margin-top: 5%;
-    color: purple;
-    font-size: 3em;
+    margin-top: 1%;
+    color: #16F783;
+    font-size: 6em;
+    font-weight: bold;
+    
 }
 
 
 .projectDescription{
-    margin: 2%;
+    margin 0;
     padding: 0;
-    color: darkslategray;
-    font-size: 2em;
+    color: #CACCCB;
+    font-size: 1.5em;
 }
 
- .projectLink a{
-    font-size: 2em;
+ .projectLink{
+    font-size: 1.5em;
+     color: blue;
+     margin-bottom: 1%;
+}
+
+.projectLink:hove{
+    text-decoration: underline;
 }
 
 button{
-    background-color: purple;
-    border: 5px solid darkslategray;
-    margin-top: 12%;
-    margin-right: 2%;
-    width: 150px;
+    background-color:#F1B0F7;
+    color: white;
+    margin-top: 3em;
+    margin-right: 1em;
+    width: 10em;
     height: 50px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
-
-/* Carousel */
-/*#wrapper_Keyes{
-    width: 100%;
-    margin-left: 6%;
-   
-}*/
-
-#carousel_keyesArchitects{
-    width: 65%;
-    background-color: lightslategray;
+.screenshot img:hover{
+    opacity: 0.4;
+    border: 5px solid #48f70c;
+    
 }
 
-
-.carousel-inner{
-    background-color: none;
-    height: 320px;
-    max-width: 1200px;
-    margin: 5%;
-    padding: 0;
-}
-
-.glyphicon glyphicon-chevron-left{
-    display: none;
-}
-
-.carousel-indicators .active{
-    background-color: deeppink;
-    display: none;
-}
-
-.carousel-indicators li{
-    border: 2px solid deeppink;
-    display: none;
-}
-
-
-.carousel_text{
-    color: black;
-    margin-top: 1.5%;
-	margin-bottom: 25px;
-	padding: 2%;
-}
-
-.glyphicon-chevron-left:before{
-    display: none;
-}
-
-.glyphicon-chevron-right:before{
-    display: none;
-}
-
-.item{
-    padding: 1.5%;
-    margin: .5% 2% 2% 5%;
-}
-
-.item img{
-    border: 3px solid black;
-    height: 85%;
-    width: 85%;
-    margin-left: 2%;
-    margin-bottom: 75px;
-}
-
-.carousel-caption{
-	display: none;
-}
 
 .col-lg-9{
     width: 65%;
     padding: 0;
-}                  
+    margin-bottom: 2%;
+}
 
+.col-lg-5{
+    padding: 0;
+}
+
+.col-lg-3{
+    padding: 0;
+}
+
+
+
+
+.screen_shot_small:hover{
+    width: 75%;
+    height: 75%;
+    
+}
 
 #keyesArchitects{
-    border-bottom: 3px solid gray;
     width: 90%;
     margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
-
-#carousel_cartoonHub{
-    width: 65%;
-    background-color: lightslategray;
-}
-
-#carousel_zombieSmash{
-    width: 65%;
-    background-color: lightslategray;
-}
 
 
 #classic_cartoon_hub{
-    border-bottom: 3px solid gray;
     width: 90%;
+     margin-bottom: 2%;
     margin-left: 5%;
 }
 
 #zombie_smash{
-    border-bottom: 3px solid gray;
     width: 90%;
+     margin-bottom: 2%;
     margin-left: 5%;
 }
 
-/************* DESIGN SECTION *****************************/
-#design{
-	margin-left: 8%;
-    border-bottom: 3px solid gray;
-    width: 90%
-   
+#beachedAnimalRescue{
+    width: 90%;
+     margin-bottom: 2%;
+    margin-left: 5%;
 }
 
-.designWrapper{
-    margin-left: 10%;
-}
-
-.thumbnail{
-    margin: 5%;
-    
-}
-
- .thumbnail-button{
-    background-color:  white;
-     border: none;
-     height: 200px;
-     width: 200px;
-}
-
-.spacer{
-    margin-bottom: 5%;
-}
-
-/************* MODAL SETTINGS *****************************/
-
-.modal-title{
-    font-size: 2.5em;
-    color: purple;
-}
-
-.modal-header button .close{
-    color: deeppink;
-    font-size: 41px;
-    line-height: 3;
-}
-
-.modal-content{
-    width: 650px;
-    height: 850px;
-    padding: 0;
-    margin: auto;
-}
-.modal-body{
-    margin: 100px;
-}
 
 /************* CONTACT SECTION ****************************/
 #contact{
