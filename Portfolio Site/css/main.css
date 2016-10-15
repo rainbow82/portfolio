@@ -57,6 +57,10 @@ nav a{
 	color: #16F783;
 }
 
+footer{
+    text-align: center;
+}
+
 /******************* PROJECT SECTION ****************************/
 .panel{
     width: 115em;
@@ -91,6 +95,10 @@ nav a{
     border: none;
     background-color: transparent;
     display: inline;
+}
+
+.thumbnail img{
+    margin-left: 5%; 
 }
 .well{
     margin-top: 3em;
