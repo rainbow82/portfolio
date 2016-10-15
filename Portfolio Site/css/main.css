@@ -6,24 +6,17 @@ body{
 
 /******************* HEADER ****************************/
 .page-header{
-	width: 100%;
-    background-image: url("../img/fireworks.jpg");
-    background-repeat: no-repeat;
-	background-size: 100%;
-    margin: 0 0 5px 0;
+    background-color: beige;
+    margin: 0 0 2em 0;
     padding: 5px 0 0 0;
-	height: 35em;
-    opacity: 0.8;
-    border: 15px solid;
+    opacity: 0.5;
 }
 
 .name{
-    margin: 10% 0 0 2%;
+    margin: 0;
     font-size: 3em;
     color: #BC11F5;
     font-weight: 800;
-    background-color: #34E1F7;
-    width: 20%;
     padding-left: 1%;
     
 }
@@ -31,24 +24,11 @@ body{
 .job_title{
     margin: 0 0 0 2%;
     color: #34E1F7;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 800;
-    background-color: white;
     width: 30%;
     padding-left: 1%;
     
-}
-
-.section_titles{
-    color: purple;
-    font-size: 3em;
-    margin-left: -75px;
-    padding: 2%;
-}
-
-.section_titles:hover{
-    color: deeppink;
-    font-weight: bold;
 }
 
 nav{
@@ -74,13 +54,26 @@ nav li{
 }
 
 nav a{
-	color: white;
+	color: #16F783;
 }
 
 /******************* PROJECT SECTION ****************************/
 .panel{
-    width: 130em;
+    width: 115em;
     margin-left: 5%;
+    box-shadow: 10px 10px 5px #888888;
+    border: 1em solid #DAF5E8;
+}
+
+.panel-title{
+    font-size: 5em;
+    color: #16F783;
+}
+
+.panel-body{ 
+    background-color: #F5F5DA;
+    color: #ABABAB;
+    font-size: 1.3em;
 }
 .jumbotron{
     background-color: #F5F5DA;
@@ -99,6 +92,17 @@ nav a{
     background-color: transparent;
     display: inline;
 }
+.well{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-color:#F1B0F7;
+}
+ .well-lg h1{
+    text-align: center;
+    font-size: 6em;
+     color: #F5F5DA;
+}
+
 #projects{
 	margin-left: 8%;
 }
@@ -107,22 +111,24 @@ nav a{
     margin-top: 1%;
     color: #16F783;
     font-size: 6em;
-    font-weight: bold;
-    
+    font-weight: bold; 
+    text-align: center;
 }
 
 
 .projectDescription{
-    margin 0;
-    padding: 0;
-    color: #CACCCB;
+    margin 0 1em;
+    padding: 0 2em;
+    color: #ABABAB;
     font-size: 1.5em;
+    text-align: center;
 }
 
  .projectLink{
     font-size: 1.5em;
      color: blue;
      margin-bottom: 1%;
+     text-align: center;
 }
 
 .projectLink:hove{
@@ -140,35 +146,7 @@ button{
     font-weight: bold;
 }
 
-.screenshot img:hover{
-    opacity: 0.4;
-    border: 5px solid #48f70c;
-    
-}
 
-
-.col-lg-9{
-    width: 65%;
-    padding: 0;
-    margin-bottom: 2%;
-}
-
-.col-lg-5{
-    padding: 0;
-}
-
-.col-lg-3{
-    padding: 0;
-}
-
-
-
-
-.screen_shot_small:hover{
-    width: 75%;
-    height: 75%;
-    
-}
 
 #keyesArchitects{
     width: 90%;
