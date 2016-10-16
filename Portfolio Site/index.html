@@ -11,15 +11,30 @@
 <body>
     <div class="container-fluid">
     <div class="page-header">
-           <!-- NAVIGATION -->    
-        <nav>
-            <ul>
-                <a href="#Projects"><li>Projects</li></a>
-                <a href="#Contact"><li>Contact</li></a>
-            </ul>
-        </nav>
+           <!-- NAVIGATION -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
             <div class="name" id="Top"> Shannon Beach</div>
-                <div class="job_title">Web and Software Developer</div>
+            <div class="job_title">Web and Software Developer</div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#Projects">Projects</a></li>
+             <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
     </div>
       <div class="well well-lg"><h1>Biography</h1></div>    
         <div class="panel panel-default">
@@ -31,7 +46,6 @@
         When I'm not developing, I enjoy being outdoors, watching movies, and spending time with my family.
         </div>    
       </div>
-    </div>
       
     <div class="well well-lg" id="Projects"><h1>Projects</h1></div>
      
@@ -46,14 +60,14 @@
                 <div class="col-md-6">
                     <h1> Project Technologies</h1>
                 </div>
-                <div class="col-md-6 col-md-pull-2">
+                <div class="col-md-6 col-md-pull-2 col-xs-push-1">
                     <button>Java</button>
                     <button>Android</button>
                     <button>Location API</button>
                 </div>
             </div>    
                 <div class="row">
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-xs-push-2 col-md-3">
                         <a href="#" class="thumbnail">
                           <img src="img/main%20screen.jpg" alt="home screen" width="50%" height="50%">
                         </a>
@@ -78,7 +92,7 @@
                 <div class="col-md-6">
                     <h1> Project Technologies</h1>
                 </div>
-                <div class="col-md-6 col-md-pull-2">
+                <div class="col-md-6 col-md-pull-2 col-xs-push-1">
                     <button>HTML5</button>
                     <button>CSS3</button>
                     <button>javaScript</button>
@@ -87,7 +101,7 @@
                 </div>
             </div>    
                 <div class="row">
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-xs-push-2 col-md-3 col-xs-push-4">
                         <a href="#" class="thumbnail">
                           <img src="img/keyes_home.jpg" alt="home screen">
                         </a>
@@ -112,7 +126,7 @@
                 <div class="col-md-6">
                     <h1> Project Technologies</h1>
                 </div>
-                <div class="col-md-6 col-md-pull-2">
+                <div class="col-md-6 col-md-pull-2 col-xs-push-1">
                     <button>HTML5</button>
                     <button>CSS3</button>
                     <button>javaScript</button>
@@ -121,7 +135,7 @@
                 </div>
             </div>    
                 <div class="row">
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-xs-push-2 col-md-3">
                         <a href="#" class="thumbnail">
                           <img src="img/cartoonHub_home.jpg" alt="home screen">
                         </a>
@@ -146,7 +160,7 @@
                 <div class="col-md-6">
                     <h1> Project Technologies</h1>
                 </div>
-                <div class="col-md-6 col-md-pull-2">
+                <div class="col-md-6 col-md-pull-2 col-xs-push-1">
                      <button>HTML5</button>
                     <button>CSS3</button>
                     <button>PHP</button>
@@ -155,7 +169,7 @@
                 </div>
             </div>    
                 <div class="row">
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-xs-push-2 col-md-3">
                         <a href="#" class="thumbnail">
                           <img src="img/georgeLucas_home.jpg" alt="home screen">
                         </a>
@@ -173,30 +187,24 @@
             <div class = "row">
                 <div class="col-md-12">
                     <div class="projectDescription">This is a  Whack-A-Mole style game for Windows Store and Android, and is the first game app that I have published. Zombies pop up behind various objects.Players have 60 seconds to kill as many zombies as they can. Some move faster than others, be careful not to kill the doctors.</div>
-                    <!--<div class="projectLink"><a href="cch/index.html">Classic Cartoon Hub</a></div>-->
                 </div>
             </div>
             <div class = "row">
                 <div class="col-md-6">
                     <h1> Project Technologies</h1>
                 </div>
-                <div class="col-md-6 col-md-pull-2">
+                <div class="col-md-6 col-md-pull-2 col-xs-push-1">
                     <button>GameMaker</button>
                     <button>Windows</button>
                     <button>Android</button>
                 </div>
             </div>    
                 <div class="row">
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-xs-push-2 col-md-3">
                         <a href="#" class="thumbnail">
                           <img src="img/zombieSmash/home_screen.jpg" alt="home screen">
                         </a>
                     </div>
-                   <!-- <div class="col-xs-6 col-md-3">
-                        <a href="#" class="thumbnail">
-                          <img src="img/rescueInfo.png" alt="rescue screen">
-                        </a>
-                    </div> -->   
                 </div>
     </div> <!--end jumbotron-->
     
@@ -205,24 +213,24 @@
     <div class="panel panel-default">
       <div class="panel-body">
           <div class="row">
-              <div class="col-md-4 col-md-push-1">
+              <div class="col-md-4 col-md-push-1 col-xs-push-4">
                 <a href="https://github.com/rainbow82">
                 <img src="img/icons/GitHub-Mark-64px.png" alt="Github Cat"><br>Github</a>
               </div>
-              <div class="col-md-4 col-md-push-1">
+              <div class="col-md-4 col-md-push-1 col-xs-push-4">
                 <a href="https://www.linkedin.com/pub/shannon-beach/b0/366/514">
                 <img src="img/icons/In-2C-66px-R.png" alt="LinkedIn Logo"><br>LinkedIn</a>
               </div>
-              <div class="col-md-4 col-md-push-1">
+              <div class="col-md-4 col-md-push-1 col-xs-push-4">
                 <a href="shannonbeach1982@gmail.com">
                 <img src="img/icons/email.png" alt="email symbol"><br>Email</a> 
               </div>
           </div>
         </div>
+        </div>    
 </div> <!--/container-fluid-->
     
     <footer><p><a href="#Top">Back To Top</a></p></footer>
-
     <script src="js/functions.js"></script>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
