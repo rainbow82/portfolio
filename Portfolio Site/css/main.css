@@ -3,9 +3,9 @@
 
 
 /******************* HEADER ****************************/
-.container-fluid{
+/*.container-fluid{
     width: 100%;
-}
+}*/
 
 .page-header{
     background-color: beige;
@@ -13,6 +13,7 @@
     padding: 5px 0 0 0;
     opacity: 0.5;
     width: 100%;
+    border: none;
 }
 
 .navbar-default{

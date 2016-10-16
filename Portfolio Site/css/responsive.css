@@ -3,36 +3,40 @@
 @media(max-width: 639px){
     .container-fluid{
         padding: 0;
-    }    
-.page-header{
-    background-color: beige;
-    margin: 0 0 2em 0;
-    width: 100%;
-}
+        margin: 0;
+    }
+
     .navbar-toggle{
         margin-top: -55px;
-        margin-right: -5px;
+        width: 5em;
+        /*margin-right: -5px;*/
     }    
 .name{
     margin-top: 15px;
     font-size: 16px;
-    margin-left: 22px;
+    margin-left: 40px;
 }
 
 .job_title{
-    margin-left:22px;
+    margin-left:40px;
     font-size: 12px;
 }
     
-    
+    .well{
+        width: 20em;
+        margin: 2em auto 2em auto;
+    }   
  .well-lg h1{
     text-align: center;
     font-size: 2em;
      color: #F5F5DA;
 }
  .panel{
-    width: 25em;
-    margin-left: 3%;
+    width: 20em;
+   margin-left: auto;
+     margin-top: 2em;
+     margin-right: auto;
+     margin-bottom: 2em;
   
 }   
 .panel-body{ 
@@ -45,18 +49,22 @@
     
 .projectDescription{
     margin: 2%;
-    margin-left: 2%;
+    margin-left: 1%;
     padding: 0;
-    font-size: 1em;
+    font-size: .8em;
 }    
 
 .projectLink a{
     font-size: 1.4em;
     margin-bottom: 0;
 }
-
+    
+    .jumbotron{
+        width: 10em;
+        margin: 2em auto 2em auto;
+    }
 .jumbotron h1{
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -82,125 +90,59 @@ button{
     }
 } /*end media query*/
 
+@media(min-width: 640px && max-width: 1024px){
+    .container-fluid{
+        max-width: 100%;
+    }
+    
+    .panel{
+        max-width: 615px;
+        margin-left: auto;
+        margin-top: 2em;
+        margin-right: auto;
+        margin-bottom: 2em;
+    }
+    
+    .projectTitles{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    .projectDescription{
+        margin: 2%;
+        margin-left: 1%;
+        padding: 0;
+        font-size: .8em;
+    }    
 
-
-/***********************************************************************/
-
-@media(min-width: 640px) and (max-width: 800px){
-
-.name{
-    margin: 2% 0 0 2%;
-    font-size: 1.5em;
+    .projectLink a{
+        font-size: 1.4em;
+        margin-bottom: 0;
+    }
+    
+    .jumbotron h1{
+        font-size: 1.8em;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    
+    button{
+        margin-top: 1em;
+        margin-right: -1em;
+        margin-left: .5em;
+        height: 45px;
+        font-size: 1em;
+        font-weight: bold;
+    }
+    
+    .well-lg h1 {
+        font-size:  2em;
+    }
 }
 
-.job_title{
-    margin-left: 2%;
-    font-size: 1em;
-}
-    
-    
-nav{
-	margin: 3px 0 0;
-    padding: 0;
-} 
-    
-nav li{
-    display: inline-block;
-    margin-left: 3px;
-    font-size: 1em;
-} 
-    
-.section_titles{
-    margin-left: 2%;
-	padding: 5px;
-}    
-    
-.carousel-inner{
-    height: 175px;
-    margin: 1%;
-}  
-
-.carousel-control{
-    display: none;
-}
-    
-    
-.projectTitles{
-    margin-top: 5%;
-    margin-left: 5%;
-    font-size: 1.4em;
-}
-    
-.projectDescription{
-    margin: 2%;
-    margin-left: 5%;
-    padding: 0;
-    font-size: 1.3em;
-}    
-
-.projectLink a{
-    font-size: 1.3em;
-    margin-bottom: 0;
-} 
-
-a{
-	margin-left: 5%;
-    margin-bottom: 3em;
-}    
-    
-button{
-    margin: 0 0 15px 0;
-    border: 3px solid darkslategray;
-    width: 95px;
-    height: 40px;
-    font-size: 1em;
-    padding-bottom; 5px;
-}    
-    
-.quote{
-    
-    margin: 1%;
-}
-
-.icons a{
-   font-size: 1em;
-    display: inline;
-}
-
-
-.icons a img{
-    margin-top: 10px;
-}
-
-#email{
-    margin-left: 10px;
-}
-
-
-  /************* MODAL SETTINGS *****************************/
-
-.modal-title{
-    font-size: 1em;
-}
-
-.modal-header button .close{
-    font-size: 20px;
-}
-
-.modal-content{
-    width: 300px;
-    height: 500px;
-}
-    
-.modal-body{
-    margin: 25px;
-}
-    
-.modal-body img {
-    width: 95%;
-    height: 95%;
-}    
+   
   
+
     
     
     
@@ -213,4 +155,3 @@ button{
     
     
     
-}
