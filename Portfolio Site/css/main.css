@@ -18,6 +18,11 @@ img{
     width: 75%;
 }
 
+/* nav bar background */
+.bg-faded{
+    background-color: #06bf96;
+}
+
 /*#beachedAnimalRescue .card-img-top{
     height: 25em;
 }*/
