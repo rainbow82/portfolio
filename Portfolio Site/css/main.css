@@ -25,8 +25,6 @@ img{
 /******************* HEADER ****************************/
 header{
 	width: 100%;
-    background-image: url("../img/city.jpg");
-    background-repeat: no-repeat;
 	background-size: 100%;
     margin: 0 0 5px 0;
     padding: 5px 0 0 0;
@@ -49,14 +47,13 @@ header{
 .section_titles{
     color: purple;
     font-size: 3em;
-    margin-left: -75px;
-    padding: 2%;
+    text-align: center;
 }
 
-.section_titles:hover{
+/*.section_titles:hover{
     color: deeppink;
     font-weight: bold;
-}
+}*/
 
 nav{
 	width: 100%;
@@ -85,6 +82,9 @@ nav a{
 }
 
 /******************* PROJECT SECTION ****************************/
+.jumbotron{
+    background-color: #1581b7;
+}
 
 #projects{
 	margin-left: 8%;
