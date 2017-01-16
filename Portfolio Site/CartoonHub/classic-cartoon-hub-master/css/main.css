@@ -1,0 +1,623 @@
+/* Styling for the main componets of page*/
+
+
+.container-fluid {
+    width: 100%;
+    background-color: black;
+    padding: 0;
+}
+
+.navbar-default{
+    margin-top: 2%;
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid yellow;
+    color: hotpink;
+}
+
+
+/* NAVIGATION */
+.main-logo {
+    width: 125px;
+    height: 125px;
+    margin 1%;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url("../img/logo.png") no-repeat;
+    background-size: 100%;
+}
+
+a{
+    /*background-color: yellow;*/
+    /*margin: 1% 5% 5% 5%;*/
+    font-size: 1.3em;
+    font-weight: 600; 
+}
+
+.navbar-brand{
+    margin: 1%;
+}
+
+
+
+.navbar-nav{
+    margin-top: 2.5%;
+}
+
+.navbar-nav li a{
+    font-size: 1.5em;
+    font-weight: 600;
+    background-color: yellow;
+    position: relative;
+}
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    float: left;
+    position: absolute;
+    z-index: 100;
+}
+
+
+
+/*login form*/
+#menuLogin{
+    background-color: yellow;
+    margin: 1.5%;
+}
+
+.btn{
+    background-color: yellow;
+}
+
+
+.content{
+    margin-top: 6%;
+    margin-left: 5%;
+    width: 95%;
+     z-index: -100;
+}
+
+p{
+    font-weight: 800;
+}
+
+
+.titles{
+    color: hotpink;
+    z-index: -1;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    display: block;
+    clear: both;
+}
+
+
+footer{
+    margin-top: 5%;
+    color: white;
+    font-size: 1.2em;
+}
+
+
+/************ HOME PAGE *************/
+
+/* sets the dimensions for the box that contains the scrolling image */
+
+#page-wrap { 
+  width: 80%;
+  max-width: 1000px; 
+  background: none;
+  margin: 20px auto;
+  position: relative;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+   z-index: -1;
+}
+
+#page-wrap:before, #page-wrap:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  background: -webkit-linear-gradient(left, rgba(255,255,255,100), rgba(255,255,255,0));
+}
+
+#page-wrap:before {
+  left: 0;
+}
+
+#page-wrap:after {
+  right: 0;
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,100));
+}
+
+
+
+/************ ABOUT PAGE *************/
+
+.wrapper-about{
+    margin-top: 2%;
+}
+
+
+#answers{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 800;
+    color: #48F70C; /*neon green*/
+}
+
+
+#rotating-item-wrapper {
+    position: relative;
+    width: 980px;
+    height: 347px;
+}
+.rotating-item {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+/************* CARTOON PAGES *********************/
+
+.show-logo{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.col-lg-6{
+    margin-bottom: 1.5%;
+    margin-right: 3%;
+    padding: 5%;
+}
+
+.col-lg-4{
+    margin-bottom: 1.5%;
+    margin-right: 3%;
+    padding: 5%;
+}
+
+
+.glyphicon{
+    margin-left: 35%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 5em;
+    color: deepskyblue;
+}
+
+
+.audio-body {
+    margin-top: 4%;
+    background: deepskyblue;
+    width: 105%;
+    padding: 3%;
+    background-position: center;
+}
+
+audio{
+    margin-right: 1.5%;
+    padding-left: 0;
+   
+}
+
+
+.modal-body{
+    margin-left: 6%;
+}
+
+.popover{
+    background-color: #F7B5F7;
+    color: black;
+    border: 5px solid white;
+    border-radius: 5%;
+    font-size: 1.3em;
+}
+
+.popover-title{
+    background-color:black;
+    color: #F7B5F7;
+    font-weight: 800;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.btn{
+    margin: 3%;
+}
+
+.button_img{
+    width: auto;
+    height: auto;
+    /*border: 5px solid #80ff00;*/
+    align-content: center;
+   /* box-shadow: 5px 5px 10px 5px #ffffb2;*/
+}
+
+.btn:hover {
+    -moz-box-shadow: 0 0 30px #fff; -webkit-box-shadow: 0 0 30px #fff; box-shadow: 5px 5px 10px 5px #ffffb2; 
+
+/*5px 5px 10px 5px #ffffb2*/
+    
+}
+
+/************* Forum Page *********************/
+
+#carousel-forum {
+   margin: 5%;
+}
+
+.carousel-inner{
+    background-color: white;
+    height: 225px;
+    max-width: 1200px;
+    marign: 10%;
+    padding: 0;
+   
+}
+
+.carousel-inner .col-lg-6{
+    margin:0;
+    padding: 0;
+}
+
+.carousel_text{
+    color: black;
+    margin-top: 1.5%;
+}
+
+.item{
+    padding: 1.5%;
+}
+    
+
+.wrapper{
+    width: 90%;
+    background-color: seashell;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.forum-nav{
+    background-color: aliceblue;
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 90%;
+    font-size: 1.3em;
+    color: blue;
+}
+
+
+.glyphicon-pencil{
+    font-size: 1.5em;
+    color: black;
+    padding-top: 2%;
+    margin: 2%;
+    /*padding-right: 2%;*/
+}
+
+table{
+    width: 100%;
+    /*border-collapse: collapse;
+    border: 3px solid black;*/
+}
+
+.table_title{
+    font-size: 3em;
+    padding: 2% 2% .5% 2%;
+}
+
+
+table td{
+    border: 3px solid black;
+}
+
+.heading{
+    font-size: 1.3em;
+    color: blueviolet;
+    padding: 0;
+    margin-left: 2%;
+    margin-bottom: .2%;
+    font-weight: bold;
+}
+
+.info{
+    font-size: 1em;
+    color: black;
+    padding: 0;
+    margin-left: 2%;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+
+
+/************* Contact Page *********************/
+
+.wrapper-contact{
+    max-width: 75%;
+    background-color: bisque;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.form-control{
+    width:50%;
+    margin-left: 2%;
+    padding-bottom: 2%;
+}
+
+.form-group{
+    font-size: 2em;
+    margin-left: 2%;
+}
+
+.btn-success{
+    margin-left: 55%;
+}
+
+
+
+/*************  LogIn Modal ***********************/
+/* Overlay when Modal is open */
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+/* Modal box or Popup box */
+.popupContainer{
+	position:absolute;
+	width:330px;
+	height: auto;
+	left:45%;
+	top:80px;
+	background: #FFF;
+}
+
+#modal_trigger  {
+    /*margin: 100px auto;*/
+	float: right;
+	 margin: .3% .3% 0 0;
+     width: 100px;
+     display: block;
+}
+
+.btn  {
+    padding: 10px 20px;
+     background:  #151440; /*navy*/
+}
+
+.btn_red  {
+    background:  #ED6347;
+     color:  #FFF;
+}
+
+.btn:hover  {
+    background:  #E4E4E2;
+}
+
+.btn_red:hover  {
+    background:  #C12B05;
+}
+
+a.btn  {
+    color: #fff;
+     text-align:  center;
+     text-decoration:  none;
+}
+
+a.btn_red  {
+    color:  #FFF;
+}
+
+.one_half  {
+    width: 50%;
+     display:  block;
+     float: left;
+}
+
+.one_half.last  {
+    width: 45%;
+     margin-left: 5%;
+}
+
+/* Popup Styles*/
+.popupHeader  {
+    font-size: 16px;
+     text-transform:  uppercase;
+}
+
+.popupHeader  {
+    background: #ae0001;/**/
+     position: relative;
+     padding: 10px 20px;
+     border-bottom: 1px solid #DDD;
+     font-weight: bold;
+	 height: 50px;
+}
+
+.popupHeader .modal_close  {
+    position:  absolute;
+     right:  0;
+     top: 0;
+     padding: 10px 15px;
+     background: #E4E4E2;
+     cursor:  pointer;
+     color: #aaa;
+     font-size: 16px;
+}
+
+.popupBody  {
+    padding: 20px;
+}
+
+/* Social Login Form */
+
+.social_login .social_box  {
+    display: block;
+     clear: both;
+     padding: 10px;
+     margin-bottom:  10px;
+     background:  #F4F4F2;
+     overflow:  hidden;
+}
+
+.social_login .icon  {
+    display: block;
+     width: 10px;
+     padding: 5px 10px;
+     margin-right:  10px;
+     float: left;
+     color: #FFF;
+     font-size: 16px;
+     text-align:  center;
+}
+ 
+.social_login .fb .icon  {
+    background: #3B5998;
+}
+
+.social_login .google .icon  {
+    background: #DD4B39;
+}
+
+.social_login .icon_title  {
+    display: block;
+     padding: 5px 0;
+     float: left;
+     font-weight:  bold;
+     font-size:  16px;
+     color: #777;
+}
+
+.social_login .social_box:hover  {
+    background:  #E4E4E2;
+}
+
+
+.centeredText  {
+    text-align:  center;
+     margin:  20px 0;
+     clear:  both;
+     overflow:  hidden;
+     text-transform:  uppercase;
+}
+
+
+.action_btns  {
+    clear: both;
+     overflow:  hidden;
+}
+
+.action_btns a  {
+    display:  block;
+}
+
+/* User Login Form */
+.user_login  {
+    display:  none;
+}
+
+.user_login label  {
+    display:  block;
+     margin-bottom: 5px;
+}
+
+.user_login input[type="text"],  .user_login input[type="email"],  .user_login input[type="password"]  {
+    display:  block;
+     width: 90%;
+     padding:  10px;
+     border: 1px solid #DDD;
+     color: #666;
+}
+
+.user_login input[type="checkbox"]  {
+    float: left;
+     margin-right: 5px;
+}
+
+.user_login input[type="checkbox"]+label  {
+    float: left;
+}
+
+
+.user_login .checkbox  {
+    margin-bottom:  10px;
+     clear:  both;
+     overflow:  hidden;
+}
+
+.forgot_password  {
+    display: block;
+     margin:  20px 0 10px;
+     clear:  both;
+     overflow:  hidden;
+     text-decoration:  none;
+     color: #ED6347;
+}
+
+/* User Register Form */
+.user_register  {
+    display:  none;
+}
+
+.user_register label  {
+    display:  block;
+     margin-bottom: 5px;
+}
+
+.user_register input[type="text"],  .user_register input[type="email"],  .user_register input[type="password"]  {
+    display:  block;
+     width: 90%;
+     padding:  10px;
+     border: 1px solid #DDD;
+     color: #666;
+}
+
+.user_register input[type="checkbox"]  {
+    float: left;
+     margin-right: 5px;
+}
+
+.user_register input[type="checkbox"]+label  {
+    float: left;
+}
+
+
+.user_register .checkbox  {
+    margin-bottom:  10px;
+     clear:  both;
+     overflow:  hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+{% extends 'main.twig' %}
+{% block content %}
+    <strong>Contact</strong>
+    <h2>George Lucas</h2>
+      <h3>Skywalker Ranch</h3>
+      
+<div class="profile_pic">
+      <img src="images/skywalker_ranch.jpg" alt="Picture of Skywalker Ranch">
+    </div>  
+
+    <p>Skywalker Ranch is a movie ranch and workplace of film director and producer George Lucas located in a secluded, yet open area near Nicasio, California, in Marin County. The ranch is located on Lucas Valley Road, although George Lucas is not related to the road's namesake, who was an early 20th century landowner in the area. The Ranch is not open to the public and keeps a low profile from the road. A gated road leads to the ranch.</p>
+    <address>
+      <h4>Skywalker Ranch</h4> 
+      <p>5858 Lucas Valley Road<br>
+      Nicasio, CA 94946, United States<br>
+        <a href="https://www.google.com/maps/place/Skywalker+Ranch/@38.0618108,-122.6434278,15z/data=!4m2!3m1!1s0x0:0x3142aa6af448d191">Google Map</a></p></address>
+    
+    <form action="" method="post">
+      <fieldset>
+        <input name="name" type="text" placeholder="Full Name">
+        <input name="email" type="email" placeholder="Email Address">
+        <textarea name="msg" placeholder="Your message..."></textarea>
+      </fieldset>
+      <input type="submit" class="button">
+    </form>
+{% endblock content %}
