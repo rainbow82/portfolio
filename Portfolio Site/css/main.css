@@ -35,11 +35,6 @@ header{
     margin-bottom: 20em;
 }
 
-
-
-
-/******************* HEADER ****************************/
-
 .section_titles{
     margin-top: 1em;
     color: purple;
@@ -70,10 +65,19 @@ header{
     background-color: #ab70bd;
 }
 
-/*.section_titles:hover{
-    color: deeppink;
-    font-weight: bold;
-}*/
+.projectDescription{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.badges{
+    text-align: center;
+}
+
+.projectLink{
+    margin-top: 1em;
+    text-align: center;
+}
 
 
 
