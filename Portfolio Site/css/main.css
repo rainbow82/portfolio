@@ -13,41 +13,31 @@ body{
   height:25em;
 }
 
-img{
-    height: 75%;
-    width: 75%;
-}
 
 /* nav bar background */
 .bg-faded{
     background-color: #06bf96;
 }
 
-/*#beachedAnimalRescue .card-img-top{
-    height: 25em;
-}*/
-
-/******************* HEADER ****************************/
-header{
-	width: 100%;
-	background-size: 100%;
-    margin: 0 0 5px 0;
-    padding: 5px 0 0 0;
-	height: 35em;
-    opacity: 0.8;
+nav {
+    margin-top: 0;
 }
 
 .name{
-    margin: 7% 0 0 10%;
-    font-size: 3em;
-    color: white;
+    margin-top: -350px;
+    color: purple;
+    font-size: 5em;
+    text-align: center;
 }
 
-.job_title{
-    margin: 0 0 0 10%;
-    font-size: 3em;
-    color: white;
+header{
+    margin-bottom: 15em;
 }
+
+
+
+
+/******************* HEADER ****************************/
 
 .section_titles{
     color: purple;
@@ -60,202 +50,7 @@ header{
     font-weight: bold;
 }*/
 
-nav{
-	width: 100%;
-	text-align: center;
-	padding: 10px 10px;
-	margin: 20px 0 0;
-}
 
-nav ul{
-    text-decoration: none;
-    list-style: none;
-    margin:0;
-    padding:0;
-    float: right;
-    color: white;
-}
-
-nav li{
-    display: inline-block;
-    margin-left: 10px;
-    font-size: 2em;
-}
-
-nav a{
-	color: white;
-}
-
-/******************* PROJECT SECTION ****************************/
-.jumbotron{
-    background-color: #1581b7;
-}
-
-#projects{
-	margin-left: 8%;
-}
-
-.projectTitles{
-    margin-top: 5%;
-    color: purple;
-    font-size: 3em;
-}
-
-
-.projectDescription{
-    margin: 2%;
-    padding: 0;
-    color: darkslategray;
-    font-size: 1em;
-}
-
- .projectLink a{
-    font-size: 1em;
-}
-
-button{
-    background-color: purple;
-    border: 5px solid darkslategray;
-    margin-top: 12%;
-    margin-right: 2%;
-    width: 150px;
-    height: 50px;
-    font-size: 1.4em;
-    font-weight: bold;
-}
-
-
-/* Carousel */
-/*#wrapper_Keyes{
-    width: 100%;
-    margin-left: 6%;
-
-}*/
-
-#carousel_keyesArchitects{
-    width: 65%;
-    background-color: lightslategray;
-}
-
-
-.carousel-inner{
-    background-color: none;
-    height: 320px;
-    max-width: 1200px;
-    margin: 5%;
-    padding: 0;
-}
-
-.glyphicon glyphicon-chevron-left{
-    display: none;
-}
-
-.carousel-indicators .active{
-    background-color: deeppink;
-    display: none;
-}
-
-.carousel-indicators li{
-    border: 2px solid deeppink;
-    display: none;
-}
-
-
-.carousel_text{
-    color: black;
-    margin-top: 1.5%;
-	margin-bottom: 25px;
-	padding: 2%;
-}
-
-.glyphicon-chevron-left:before{
-    display: none;
-}
-
-.glyphicon-chevron-right:before{
-    display: none;
-}
-
-.item{
-    padding: 1.5%;
-    margin: .5% 2% 2% 5%;
-}
-
-.item img{
-    border: 3px solid black;
-    height: 85%;
-    width: 85%;
-    margin-left: 2%;
-    margin-bottom: 75px;
-}
-
-.carousel-caption{
-	display: none;
-}
-
-.col-lg-9{
-    width: 65%;
-    padding: 0;
-}
-
-
-#keyesArchitects{
-    border-bottom: 3px solid gray;
-    width: 90%;
-    margin-left: 5%;
-}
-
-
-#carousel_cartoonHub{
-    width: 65%;
-    background-color: lightslategray;
-}
-
-#carousel_zombieSmash{
-    width: 65%;
-    background-color: lightslategray;
-}
-
-
-#classic_cartoon_hub{
-    border-bottom: 3px solid gray;
-    width: 90%;
-    margin-left: 5%;
-}
-
-#zombie_smash{
-    border-bottom: 3px solid gray;
-    width: 90%;
-    margin-left: 5%;
-}
-
-/************* DESIGN SECTION *****************************/
-#design{
-	margin-left: 8%;
-    border-bottom: 3px solid gray;
-    width: 90%
-
-}
-
-.designWrapper{
-    margin-left: 10%;
-}
-
-.thumbnail{
-    margin: 5%;
-
-}
-
- .thumbnail-button{
-    background-color:  white;
-     border: none;
-     height: 200px;
-     width: 200px;
-}
-
-.spacer{
-    margin-bottom: 5%;
-}
 
 /************* MODAL SETTINGS *****************************/
 
