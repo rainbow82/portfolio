@@ -25,13 +25,14 @@ nav {
 
 .name{
     margin-top: -350px;
-    color: purple;
-    font-size: 5em;
+    color: white;
+    font-size: 3em;
     text-align: center;
+
 }
 
 header{
-    margin-bottom: 15em;
+    margin-bottom: 20em;
 }
 
 
@@ -40,9 +41,33 @@ header{
 /******************* HEADER ****************************/
 
 .section_titles{
+    margin-top: 1em;
     color: purple;
     font-size: 3em;
     text-align: center;
+}
+
+.section_titles:hover{
+    text-decoration:underline;
+    color: #06bf96;
+}
+
+.return_to_top{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#websites{
+    background-color: #0b80bb;
+}
+
+#apps{
+    background-color: #0ec3a3;
+}
+
+#photoshop{
+    background-color: #ab70bd;
 }
 
 /*.section_titles:hover{
