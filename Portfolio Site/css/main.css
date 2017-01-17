@@ -4,6 +4,12 @@ body{
     background-color: white;
 }
 
+footer{
+    background-color: #8491B5;
+    padding: 2em;
+    margin-top: -50px;
+}
+
 .col-md-4{
     margin-top: 1em;
 }
@@ -109,6 +115,24 @@ header{
 .projectLink{
     margin-top: 1em;
     text-align: center;
+}
+
+.badge-java{
+    background-color: #65089C;
+}
+
+.badge-other{
+    background-color: #F5740A;
+}
+
+.profile_pic{
+    border: 5px solid purple;
+    border-radius: 100%;
+}
+
+.icons{
+    text-align: center;
+    margin-left: 1em;
 }
 
 
