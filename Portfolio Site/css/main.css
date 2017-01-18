@@ -4,6 +4,11 @@ body{
     background-color: white;
 }
 
+header img{
+    height: 500px;
+    width: 100%;
+}
+
 footer{
     background-color: #8491B5;
     padding: 2em;
