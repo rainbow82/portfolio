@@ -1,0 +1,194 @@
+<!-- Home Page for ClassicCartoonHub.com -->
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Classic Cartoon Hub</title>
+     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<![endif]-->
+     <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->   
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/scroller.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <body>
+        
+<nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+      <!--<a class="navbar-brand" href="../index.html">--><div class="main-logo pull-left"></div></a>
+            </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>  
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cartoons <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                         <li><a href = "../cartoon_pages/darkwingDuck.html">Darkwing Duck</a></li>
+                         <li><a href = "../cartoon_pages/duckTales.html">DuckTales</a></li>
+                         <li><a href = "../cartoon_pages/flintstones.html">Flinstones</a></li>
+                         <li><a href = "../cartoon_pages/ninja_turtles.html">Ninja Turtles</a></li>
+                         <li><a href = "../cartoon_pages/scoobyDoo.html">Scooby Doo</a></li>
+                         <li><a href = "../cartoon_pages/smurfs.html">Smurfs</a></li>
+                    </ul>
+            </li>
+            <li><a href="../forum.html">Forum</a></li>
+           <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <!-- logIn button triggers a modal pop up -->
+			<a id="modal_trigger" href="#modal" class="btn">LogIn</a>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+        
+<!-- MAIN CONTENT -->        
+<div class="content">
+    
+<div class="titles">Classic Cartoon Hub</div> 
+   
+    <!-- movie reel scroller -->
+    <div class="row">
+        <div class="col-lg-12">
+           <div id="page-wrap">
+                <div id="tech-slideshow">
+                    <div id="tech-slideshow-1"></div>
+                    <div id="tech-slideshow-2"></div>
+                </div>
+            </div> <!-- end scroller-->
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-lg-6">
+             <p class="home_text"> All of your favorite classic cartoons are now in one spot!
+        Watch, reminisce, and join in discussions on all of the classic toons.    
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <p class="home_text"> Are we missing your favorite show? Is there something else you would like to see on
+        this site? Feel free to contact us and let us know!</p>
+    </div>
+</div><!-- end row -->
+ </div><!-- end content -->
+    
+    
+	
+<!-- modal pop up logIn -->
+<div id="modal" class="popupContainer" style="display:none;">
+	<header class="popupHeader">
+		<span class="header_title">Login</span>
+		<span class="modal_close"><i class="fa fa-times"></i></span>
+	</header>
+	
+	<section class="popupBody">
+		
+		<div class="social_login">
+		
+  <!--  <div class="clearfix">
+        <a class="social_box fb" href="#"><span class="icon_title">Connect with
+        Facebook</span> 
+		<a class="social_box google" href="#"><span class=
+        "icon_title">Connect with Google</span></a>
+    </div>-->
+
+    <div class="centeredText">
+        <span>Login or Sign Up</span>
+    </div>
+
+    <div class="action_btns">
+        <div class="one_half">
+            <a class="btn" href="#" id="login_form" name="login_form">Login</a>
+        </div>
+
+        <div class="one_half last">
+            <a class="btn" href="#" id="register_form" name=
+            "register_form">Sign up</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="user_login">
+    <form>
+        <label>Email / Username</label> <input type="text"><br>
+        <label>Password</label> <input type="password"><br>
+ 
+        <div class="checkbox">
+            <input id="remember" type="checkbox"> <label for=
+            "remember">Remember me on this computer</label>
+        </div>
+ 
+        <div class="action_btns">
+            <div class="one_half">
+                <a class="btn back_btn" href="#">Back</a>
+            </div>
+ 
+            <div class="one_half last">
+                <a class="btn btn_red" href="#" onclick="loadCtlPanel()">Login</a>
+            </div>
+        </div>
+    </form>
+    
+    <a class="forgot_password" href="#">Forgot password?</a>
+</div>
+
+<!-- Register as a new user -->
+<div class="user_register">
+    <form>
+        <label>Full Name</label> <input type="text"><br>
+        <label>Email Address</label> <input type="email"><br>
+        <label>Password</label> <input type="password"><br>
+
+        <div class="checkbox">
+            <input id="send_updates" type="checkbox"> <label for=
+            "send_updates">Send me occasional email updates</label>
+        </div>
+
+        <div class="action_btns">
+            <div class="one_half">
+                <a class="btn back_btn" href="#">Back</a>
+            </div>
+
+            <div class="one_half last">
+                <a class="btn btn_red" href="#">Register</a>
+            </div>
+        </div>
+    </form>
+</div>
+	</section>
+</div>	    
+    
+ <footer class="main-footer">
+    <p>*Disclaimer: None of the images, videos, or audio files on this site were 
+     created by me. All photoshop work to original images is mine. 
+     Sources: Google Images, Youtube, and televisiontunes.com</p>
+</footer>   
+ 
+ <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>r
+    <script src ="js/jquery.leanModal.min.js"></script>
+    <script src="js/functions.js"></script>
+</body>
+</html>
