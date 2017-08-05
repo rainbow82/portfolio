@@ -1,4 +1,4 @@
-/* main styles for portfolio page */
+.5/* main styles for portfolio page */
 
 body{
     background-color: white;
@@ -7,6 +7,10 @@ body{
 header img{
     height: 500px;
     width: 100%;
+}
+
+header{
+    margin-bottom: 10em;
 }
 
 footer{
@@ -70,12 +74,9 @@ nav {
     font-size: 1.5em;
 }
 
-header{
-    margin-bottom: 20em;
-}
 
 .section_titles{
-    margin-top: 1em;
+    margin-top: .5em;
     color: purple;
     font-size: 3em;
     text-align: center;
